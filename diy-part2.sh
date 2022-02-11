@@ -20,8 +20,10 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/kenzok8/small-package/luci-app-adguardhome.git package/luci-app-adguardhome
 
-git clone -b master https://github.com/vernesong/OpenClash.git package/Openclash
-git clone -b master https://github.com/kenzok8/luci-app-store.git package/luci-app-store
+#git clone -b master https://github.com/vernesong/OpenClash.git package/Openclash
+git clone https://github.com/vernesong/OpenClash/tree/master/luci-app-openclash package/Openclash
+git clone -b main https://github.com/kenzok8/small-package/luci-app-store.git package/luci-app-store
+git clone https://github.com/kenzok8/small-package/luci-app-easymesh.git package/luci-app-easymesh
 
 #git clone https://github.com/kenzok8/openwrt-packages.git
 git clone -b master https://github.com/kenzok8/luci-theme-ifit.git package/lean/luci-theme-ifit
